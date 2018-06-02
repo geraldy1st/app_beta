@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>App</title>
+    <title>App THP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -14,33 +15,9 @@
     <!-- Header -->
     <%= render 'layouts/layout/header' %>
 
-
-
     <%= yield %>
 
     <!-- Footer -->
     <%= render 'layouts/layout/footer' %>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-    <script type="text/javascript">
-    $(function(){
-    	$(".logo").click(function(){
-    		$(".section").toggle(200);
-    	});
-
-
-      // hamburger menu toggle
-      $('.nav-toggle').click(function() {
-        $('.main-nav').toggleClass('is-open');
-        $('.hamburger').toggleClass('is-open');
-        $('.menu').toggleClass('menuapp');
-        $('body').toggleClass('shadow');
-      })
-
-    });
-
-
-
-  </script>
   </body>
 </html>
