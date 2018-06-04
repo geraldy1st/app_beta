@@ -10,15 +10,6 @@ dark grey rgba(90,90,90,1);
    font-family: 'Oswald', sans-serif;
    padding: 0;
    margin: 0;
-   top: 0px;
- }
-
- *{
-   box-sizing: border-box;
- }
- .fixed{
-   position: fixed;
-
  }
 .fixed{
   position: fixed;
@@ -84,8 +75,7 @@ dark grey rgba(90,90,90,1);
  }
  input[type=search] {
 	-webkit-appearance: textfield;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
+	-webkit-box-sizing: content-box;
 	font-family: inherit;
 	font-size: 100%;
 }
@@ -201,8 +191,6 @@ input::-webkit-input-placeholder {
   background-image: linear-gradient(19deg, rgba(191, 55, 105,.8) 0%, rgba(31, 31, 81,1) 100%);
   height: 100vh;
   text-align: center;
-  width:100vw;
-  z-index: 1
 }
 .ranking h2{
   background-color: rgba(191, 55, 105,1);
@@ -240,16 +228,9 @@ footer p{
      transform: translateX(-50%);
    }
    #menu-app-slide{
-<<<<<<< HEAD
      width: 70%;
      min-height: 100%;
      position: absolute;
-=======
-     width: 90%;
-     min-height: 100%;
-     position: absolute;
-     top: 0px;
->>>>>>> ef62d915b0c4845728400da917ab936ced7e8a05
      bottom: 0;
      top:0;
      z-index: 999;
@@ -260,25 +241,11 @@ footer p{
      width: 100%;
      height: 100vh;
      position: absolute;
-<<<<<<< HEAD
-=======
-     top: 0px;
->>>>>>> ef62d915b0c4845728400da917ab936ced7e8a05
      bottom: 0;
      left: 0 !important;
      z-index: 999;
      transition: all ease-in-out .2s;
    }
-   /* .menu-app-side{
-     position: absolute;
-     top: 0;
-     left: 70%;
-     bottom: 0;
-     background:rgba(0,0,0,0.6);
-     width: 30%;
-     height: 100vh;
-     z-index: 900;
-   } */
    .menuapp{
      background: #ADA996;  /* fallback for old browsers */
      background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
