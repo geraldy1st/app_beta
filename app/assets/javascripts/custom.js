@@ -1,18 +1,17 @@
-$(function(){
+
     // $(".logo").click(function(){
     //   $(".section").toggle(200);
     // });
 
 
-    // hamburger menu toggle
-    $('.nav-toggle').click(function() {
+
+//
+//
+    function menuToggle(){
       $('.main-nav').toggleClass('is-open');
       $('.hamburger').toggleClass('is-open');
       $('#menu-app-slide').toggleClass('slider');
-    });
-
-  // $('#menu-app-slide').hide();
-
-
-
-  });
+      $('body').toggleClass('fixed');
+     }
+document.querySelector(".nav-toggle").addEventListener("click", toggleMenu)
+document.querySelector(".menu-link li").addEventListener("click", toggleMenu)

@@ -15,7 +15,7 @@
       <li><%= link_to "Profil", gamers_path, class: "profil" %></li>
     </ul>
   </div>
-  <div class="nav-toggle">
+  <div id="nav-toggle">
     <div class="hamburger"></div>
   </div>
 </nav>
@@ -27,16 +27,13 @@
         <p>@Username</p>
       </div>
     </div>
-    <ul class="">
+    <ul class="menu-link">
       <li><%= link_to "Home", root_path, class: "news" %></li>
-      <li><%= link_to "Ranking", gamers_path %></li>
-      <li><%= link_to "random", gamers_path %></li>
+      <li>gamers</li>
+      <li><%= link_to "Random", gamers_path %></li>
       <li><%= link_to "Profil", gamers_path %></li>
       <li><%= link_to "Logout", gamers_path %></li>
     </ul>
-  </div>
-  <div class="menu-app-side">
-    <!-- shadow only -->
   </div>
 </div>
 
