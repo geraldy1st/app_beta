@@ -10,6 +10,15 @@ dark grey rgba(90,90,90,1);
    font-family: 'Oswald', sans-serif;
    padding: 0;
    margin: 0;
+   top: 0px;
+ }
+
+ *{
+   box-sizing: border-box;
+ }
+ .fixed{
+   position: fixed;
+
  }
  nav{
    background-color: rgba(31, 31, 81,1);
@@ -72,7 +81,8 @@ dark grey rgba(90,90,90,1);
  }
  input[type=search] {
 	-webkit-appearance: textfield;
-	-webkit-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
 	font-family: inherit;
 	font-size: 100%;
 }
@@ -188,6 +198,8 @@ input::-webkit-input-placeholder {
   background-image: linear-gradient(19deg, rgba(191, 55, 105,.8) 0%, rgba(31, 31, 81,1) 100%);
   height: 100vh;
   text-align: center;
+  width:100vw;
+  z-index: 1
 }
 .ranking h2{
   background-color: rgba(191, 55, 105,1);
@@ -225,10 +237,10 @@ footer p{
      transform: translateX(-50%);
    }
    #menu-app-slide{
-     width: 100%;
+     width: 90%;
      min-height: 100%;
      position: absolute;
-     top: 58px;
+     top: 0px;
      bottom: 0;
      z-index: 999;
      left: -100%;
@@ -238,7 +250,7 @@ footer p{
      width: 100%;
      height: 100vh;
      position: absolute;
-     top: 58px;
+     top: 0px;
      bottom: 0;
      left: 0 !important;
      z-index: 999;
