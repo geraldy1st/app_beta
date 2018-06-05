@@ -6,10 +6,13 @@ black rgba(20,20,20,1);
 light grey rgba(220,220,220,1);
 dark grey rgba(90,90,90,1);
  */
- html,body{
-   font-family: 'Oswald', sans-serif;
+ *{
    padding: 0;
    margin: 0;
+ }
+ html,body{
+   font-family: 'Oswald', sans-serif;
+
  }
 .fixed{
   position: fixed;
